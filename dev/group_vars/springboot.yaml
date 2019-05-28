@@ -1,0 +1,3 @@
+app_springboot_config:
+  app_name: springboot
+  port: 7896

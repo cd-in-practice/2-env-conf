@@ -1,0 +1,9 @@
+---
+ansible_ssh_user: vagrant 
+ansible_ssh_pass: vagrant
+firewall_allowed_tcp_ports:
+  - "22"
+  - "25"
+  - "80"
+  - "443"
+  - "{{app_springboot_config.port}}"

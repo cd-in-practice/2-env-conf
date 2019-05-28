@@ -1,0 +1,9 @@
+appuser:
+  name: vagrant
+  group: vagrant
+
+JAVA_JAR_OPS: "-Xms512m -Xmx512m  -XX:+UseG1GC -XX:+DisableExplicitGC"
+JAVA_HOME: "/usr/lib/jvm/jre-openjdk"
+
+
+
